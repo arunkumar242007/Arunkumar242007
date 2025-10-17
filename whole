@@ -1,0 +1,216 @@
+<!--1st page-->
+<html>
+    <head>
+        <title>html</title>
+    </head>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+<h3><center><u>Text and pharagraphs</u></center></h3>
+ <h2>1.Heading tag :</h2>
+ <h1>h1 - MERN stack Development</h1>
+ <h2>h2 - Web Development </h2>
+ <h3>h3 - React.js</h3>
+ <h4>h4 - Node.js</h4>
+ <h5>h5 - Express.js</h5>
+ <h6>h6 - Mango DB</h6>
+ <h2>2.Paragraph Tag :</h2>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum eligendi modi unde sequi nulla aperiam impedit? Earum porro ipsa voluptates qui provident fugit minus eaque, deleniti molestiae eos eius accusamus modi odit libero incidunt consectetur deserunt placeat corrupti repudiandae quam officia. Dicta ipsa enim dolorem, provident rem fugit totam doloribus beatae ipsum. Similique quisquam eligendi repellat aliquam reprehenderit nihil omnis, perspiciatis neque, obcaecati hic officia officiis, cumque esse asperiores porro rerum quis fuga totam fugit? Ut a iure nam repellat, magnam eius provident in animi, esse similique odio at numquam fugiat id architecto pariatur sit? Non a itaque tempora.</p>
+ <h2>3.Break Tag :</h2>
+ <h3>Before :Hello world</h3>
+ <h3>After : Hello<br>world</h3>
+ <h2>4.Hr Tag :</h2>
+ <hr>
+ <!--2nd page-->
+<h2>5.Abbreviation Tag :</h2>
+<abbr title="indian space research organization">ISRO</abbr>was found on August 15, 1969
+ <h2>6.Strong Tag :</h2>
+ <strong>Hello world!</strong>
+ <h2>7.Small Tag :</h2>
+ <small>Hello world!</small>
+ <h2>8.Time Tag :</h2>
+ <time>4.00 - </time>Class
+ <center><h1><u>List</u></h1></center>
+ <h2>9.Ordered List :</h2>
+ <ol>
+    <li>Mugilan</li>
+    <li>Mathan</li>
+    <li>Gokul</li>
+    <li>Sathi</li>
+ </ol> 
+ <h2>10.Un-Ordered List</h2> 
+<ul>
+    <li>Mugilan</li>
+    <li>Mathan</li>
+    <li>Gokul</li>
+    <li>Sathi</li>
+ </ul> 
+ <!--3th page-->
+ <h2>11.dl,dt,dd Tag :</h2>
+ <dl>
+    <dt>React</dt>
+    <dd>Frontend Framework</dd>
+    <dt>Node</dt>
+    <dd>Runtime Environment</dd>
+    <dt>Express</dt>
+    <dd>API</dd>
+    <dt>MangoDB</dt>
+    <dd>Database</dd>
+ </dl>
+ <center><h1><u>Anchor</u></h1></center>
+ <h2>12.Anchor Tag :</h2>
+ <a href="https://www.wikipedia.org/">Click me</a>
+ <center><h1><u>Images and Multimedia</u></h1></center>
+ <h2>13.Image Tag :</h2>
+ <center><img src="c:\Users\ashok\Downloads\nature.jpg",width="300",height="300"></center>
+
+
+<!--4th page-->
+<h2>14.Audio Tag :</h2>
+        <audio controls>
+            <source src="c:\Users\ashok\Documents\Feel-My-Love.mp3",type="audio/ogg">
+        </audio>
+        <h2>15.Video Tag :</h2>
+        <center><video width="300" height="300" controls>
+            <source src="c:\Users\ashok\Downloads\3571264-uhd_3840_2160_30fps.mp4",type="video/mp4">
+        </video></center>
+        <h2>16.Source Tag :</h2>
+        <center>
+            <picture>
+                <source src="c:\Users\ashok\Downloads\nature.jpg">
+            </picture>
+        </center>
+<!--5th page-->
+
+    <center><h1><u>Forms and Input Elements</u></h1></center>
+    <h2>17.Form Tag :</h2>
+    <h2>18.Input Tag:</h2>
+    <label>Name</label>
+    <input type="text"placeholder="Enter Your Name">
+    <h2>19.br Tag :</h2>
+    <br>
+    <label>Date of Birth</label>
+    <input type="dob"placeholder="Enter Your Date of Birth">
+    <h2>20.Textarea Tag :</h2>
+    <textarea id="eyt"name="eyt" rows="3" cols="35">Enter Your Thoughts</textarea>
+    <h2>21.button Tag :</h2>
+    <button type="button">Submit</button>
+    <h2>22.Select Tag :</h2>
+    
+   <h2>23.option Tag :</h2>
+   
+    <label></label>
+    <select>
+        <option value="arun">arun</option>
+        <option value="dhibagar">dhibagar</option>
+        <option value="harish">ariharish</option>
+    </select>
+    <h2>24.Datalist Tag :</h2>
+    <label>Name</label>
+    <input type="text">
+    <h2>25.progress Tag :</h2>
+    <label></label>
+    <progress id="123",value="100",max="100"></progress>   
+<!--6th page-->
+
+        <center><h1><u>Table</u></h1></center>
+        <h2>26.Table Tag :</h2>
+        <table>
+            <tr>
+             <th>Name</th>
+              <th>Age</th>  
+              <th>Reg Number</th>
+            </tr>
+            <tr>
+                <td >Mugilan</td>
+                <td>20</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Mathan</td>
+                <td>20</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Gokul</td>
+                <td>20</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>sathi</td>
+                <td>20</td>
+                <td>51</td>
+            </tr>
+            
+        </table>
+        <h2>27.Mark Tag</h2>
+        <p><mark>Javascript</mark> is both Scripting and programming Language</p>
+        <h2>28.Marque Tag :</h2>
+        <marquee>Welcome to our html website</marquee>
+        <h2>29.Code Tag</h2>
+        <code>console.log("Hello world!");</code>
+        <h2>30.Delete Tag :</h2>
+        <del>Hello world!</del>
+        <h2>31.Div Tag :</h2>
+        <div>MERN stack Development</div>
+        <h2>32.Span Tag :</h2>
+        <p>MERN<span>stack</span>Development</p>
+        <h2>33.blockquote Tag :</h2>
+        <blockquote cite="file:///C:/Users/ashok/.vscode/table.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores quaerat, perspiciatis reiciendis ipsum in consequuntur repellat repudiandae non, repellendus labore rem nostrum libero vel deleniti architecto tempora illum suscipit.</blockquote>
+        <!--7th page-->
+
+<h2>34.Pre Tag :</h2>
+<pre>
+Lorem ipsum dolor sit
+amet consectetur adipisicing
+elit.cupiditate palceat at similique id
+eveniet architecto adipisci natus quod fuiat in.
+</pre>
+<h2>35.Iframe Tag :</h2>
+<iframe src="c:\Users\ashok\Downloads\WhatsApp Video 2025-10-16 at 9.59.33 PM (1).mp4" frameborder="0"></iframe> 
+<h2>36.Cite Tag :</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate <cite>suscipit commodi unde, deleniti ab nesciunt quos, quibusdam tempore hic beatae voluptates odit quidem accusamus illum exercitationem nulla recusandae?</cite></p> 
+
+<h2>37.Caption Tag :</h2> 
+<caption>Sample Table for Caption    <br>Tag</caption>
+<table>
+<tr>
+<th>S.NO</th>
+<th>Name</th>
+<th>Course</th>
+</tr>
+<td>1</td>
+<td>Mugilan</td>
+<td>MERN</td>
+</tr>
+<td>2</td>
+<td>Gokul</td>
+<td>MERN</td>
+</tr>
+<tr>
+
+<td>3</td>
+<td>Sathi</td>
+<td>MERN</td>
+</tr>
+<tr>
+<td>4</td> <td>Mathan</td>
+<td>MERN</td>
+</html>
+</table>
+<h2>38.em Tag :</h2>
+<em>Hello world! </em>
+<h2>39.Address Tag :</h2>
+<address>139/2, thiruvalluvar street, aranthangi</address>
+<h2>40.option Tag :</h2>
+<label>Program</label>
+<select>
+<option value="html">html</option>
+<option value="python">python</option>
+<option value="javascript">Javascript</option>
+</select>
+</body>
+</html>
